@@ -1,0 +1,16 @@
+"use strict";
+exports.__esModule = true;
+exports.PATH = exports.MESSAGE_TYPING = exports.MESSAGE_BUILD = exports.MESSAGE_START = exports.MESSAGE_WELCOME = exports.MESSAGE_SPECIFY = exports.MESSAGE_INSTALL = exports.MESSAGE_CLONE = exports.MESSAGE_CREATE = exports.CD_FILE = exports.INSTALL_DEPS = exports.GIT_CLONE = exports.URL_REPO = void 0;
+exports.URL_REPO = 'https://github.com/chjesus/boilerplate-webpack-5.git';
+exports.GIT_CLONE = "git clone --depth 1 ".concat(exports.URL_REPO);
+exports.INSTALL_DEPS = 'npm install';
+exports.CD_FILE = 'cd';
+exports.MESSAGE_CREATE = 'Creating a new SPA app in';
+exports.MESSAGE_CLONE = 'Cloning the repository with name';
+exports.MESSAGE_INSTALL = 'Installing dependencies for';
+exports.MESSAGE_SPECIFY = 'Please specify the name project directory';
+exports.MESSAGE_WELCOME = 'Congratulations! You are ready. Follow the following commands to start';
+exports.MESSAGE_START = 'Starts the development server.';
+exports.MESSAGE_BUILD = 'Bundles the app into static files for production.';
+exports.MESSAGE_TYPING = 'We suggest that you begin by typing';
+exports.PATH = process.cwd();

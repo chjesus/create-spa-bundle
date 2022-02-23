@@ -1,0 +1,27 @@
+{
+  "name": "new-spa-bundle",
+  "version": "1.0.0",
+  "description": "Script for the creation of a single page application using webpack, hbs and sass",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "homepage": "https://github.com/chjesus/boilerplate-webpack-5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chjesus/boilerplate-webpack-5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build",
+    "build": "tsc src/index.ts --outDir dist"
+  },
+  "keywords": ["Webpack", "sass", "hbs", "eslint", "prettier"],
+  "author": "chjesus",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "typescript": "^4.5.5"
+  }
+}
